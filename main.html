@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Непал-Катманду</title>
     <style>
-        /* Общие стили */
+        
 body {
     background-image: url('https://masterpiecer-images.s3.yandex.net/5fdec9ee3e33441:upscaled'); 
     background-size: cover;
@@ -20,9 +20,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-/* Содержимое страницы */
 .content {
-    padding-top: 180px; /* Отступ для шапки, увеличен для компенсации фиксированного положения */
+    padding-top: 180px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 40px;
@@ -33,7 +32,6 @@ body {
     flex-grow: 1;
 }
 
-/* Изображения */
 img {
     display: block;
     margin: 20px auto;
@@ -41,7 +39,6 @@ img {
     border-radius: 10px;
 }
 
-/* Видеоплеер */
 iframe {
     display: block;
     margin: 20px auto;
@@ -49,7 +46,6 @@ iframe {
     border-radius: 10px;
 }
 
-/* Таблица */
 table {
     width: 100%;
     margin: 20px 0;
@@ -136,7 +132,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Списки */
 ul {
     list-style: none;
     padding: 0;
@@ -147,7 +142,6 @@ ul li {
     text-align: center;
 }
 
-/* Футер */
 footer {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
@@ -173,8 +167,26 @@ footer {
     iframe {
         width: 100%;
     }
-}
+    .influensers {
+        flex-direction: column;
+        align-items: stretch; 
+    }
 
+    .influenser {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .influenser img {
+        width: 100%;
+        height: auto;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto; 
+    }
+}
     </style>
 </head>
 <body>
